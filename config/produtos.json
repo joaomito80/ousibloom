@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "name": "Kit 5 Bodies Ursinha Rosa",
+    "category": "Menina",
+    "price": 10990,
+    "img": "assets/images/p1.webp",
+    "badge": "Mais amado",
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kit 5 Bodies Ursos Polares",
+    "category": "Bebê",
+    "price": 11990,
+    "img": "assets/images/p2.webp",
+    "badge": "Kit econômico",
+    "sizes": [
+      "RN",
+      "P",
+      "M",
+      "G"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Jardineira Papagaio Bird Boy",
+    "category": "Menino",
+    "price": 9990,
+    "img": "assets/images/p3.webp",
+    "badge": "Novidade",
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Conjunto Listrado Florzinha",
+    "category": "Menina",
+    "price": 8990,
+    "img": "assets/images/p4.webp",
+    "badge": "Destaque",
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Kit 5 Bodies Pandinhas",
+    "category": "Bebê",
+    "price": 11990,
+    "img": "assets/images/p5.webp",
+    "badge": "Para presentear",
+    "sizes": [
+      "RN",
+      "P",
+      "M",
+      "G"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Jardineira Ursinhos Pretinha",
+    "category": "Menino",
+    "price": 10490,
+    "img": "assets/images/p6.webp",
+    "badge": "Mais amado",
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Jardineira Elefantinho",
+    "category": "Bebê",
+    "price": 9490,
+    "img": "assets/images/p7.webp",
+    "badge": "Delicado",
+    "sizes": [
+      "RN",
+      "P",
+      "M",
+      "G"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Jardineira Cachorrinho Dog",
+    "category": "Menino",
+    "price": 9990,
+    "img": "assets/images/p8.webp",
+    "badge": "Divertido",
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Jardineira Caminhão Lego",
+    "category": "Menino",
+    "price": 9990,
+    "img": "assets/images/p9.webp",
+    "badge": "Novidade",
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Jardineira Ursinhos Cinza",
+    "category": "Bebê",
+    "price": 9490,
+    "img": "assets/images/p10.webp",
+    "badge": "Conforto",
+    "sizes": [
+      "RN",
+      "P",
+      "M",
+      "G"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Jardineira Sorvete I'm So Cool",
+    "category": "Menina",
+    "price": 9990,
+    "img": "assets/images/p11.webp",
+    "badge": "Divertido",
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Jardineira Honey Ursinhos",
+    "category": "Bebê",
+    "price": 10490,
+    "img": "assets/images/p12.webp",
+    "badge": "Queridinho",
+    "sizes": [
+      "RN",
+      "P",
+      "M",
+      "G"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Jardineira Veleiros",
+    "category": "Bebê",
+    "price": 8990,
+    "img": "assets/images/p13.webp",
+    "badge": "Essencial",
+    "sizes": [
+      "RN",
+      "P",
+      "M",
+      "G"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Jardineira Tartaruga Feliz",
+    "category": "Menina",
+    "price": 9490,
+    "img": "assets/images/p14.webp",
+    "badge": "Alegria",
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Jardineira Waffle Caramelo",
+    "category": "Bebê",
+    "price": 8490,
+    "img": "assets/images/p15.webp",
+    "badge": "Básico lindo",
+    "sizes": [
+      "RN",
+      "P",
+      "M",
+      "G"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Conjunto Dinossauros",
+    "category": "Bebê",
+    "price": 7990,
+    "img": "assets/images/p16.webp",
+    "badge": "Novidade",
+    "sizes": [
+      "RN",
+      "P",
+      "M",
+      "G"
+    ]
+  }
+]

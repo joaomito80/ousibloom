@@ -36,6 +36,7 @@
      <input aria-label="Buscar produtos" id="search" placeholder="O que voc&ecirc; procura para os pequenos?"/>
     </label>
     <div class="header-actions">
+     <button class="account-button" id="accountBtn" type="button" aria-label="Entrar ou acessar minha conta"><span class="account-avatar">♡</span><span id="accountLabel">Entrar / Cadastrar</span></button>
      <button class="iconbtn" id="favBtn" title="Favoritos">
       <svg viewbox="0 0 24 24">
        <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z">
@@ -479,7 +480,7 @@
      Continuar para finalizar &rarr;
     </button>
     <p style="text-align:center;font-size:11px;color:#87797d">
-     Simula&ccedil;&atilde;o para apresenta&ccedil;&atilde;o escolar
+     Protótipo: pedidos registrados localmente quando executado em PHP
     </p>
    </div>
   </aside>
@@ -502,29 +503,29 @@
      Finalizar pedido ♡
     </h2>
     <p style="font-size:13px;color:#87797d">
-     Preencha os dados fict&iacute;cios para demonstrar o fluxo de compra. Nenhum pagamento ser&aacute; realizado.
+     Informe nome e e-mail para registrar um pedido de teste. N&atilde;o existe pagamento real nem envio de mercadorias.
     </p>
     <form id="checkoutForm">
      <div class="fields">
       <label>
        Nome completo
-       <input placeholder="Nome do cliente" required=""/>
+       <input name="nome" placeholder="Nome do cliente" required=""/>
       </label>
       <label>
        E-mail
-       <input placeholder="nome@exemplo.com" required="" type="email"/>
+       <input name="email" placeholder="nome@exemplo.com" required="" type="email"/>
       </label>
       <label>
        CEP
-       <input maxlength="9" placeholder="00000-000" required=""/>
+       <input maxlength="9" placeholder="00000-000"/>
       </label>
       <label>
        Cidade
-       <input placeholder="Sua cidade" required=""/>
+       <input placeholder="Sua cidade"/>
       </label>
       <label>
        Endere&ccedil;o
-       <input placeholder="Rua e n&uacute;mero" required=""/>
+       <input placeholder="Rua e n&uacute;mero"/>
       </label>
       <label>
        Forma de pagamento
@@ -552,12 +553,36 @@
   </a>
   <div class="toast" id="toast" role="status">
   </div>
+
+  <div class="modal account-modal" id="accountModal" role="dialog" aria-modal="true" aria-labelledby="accountTitle">
+    <button class="close modal-close" data-close aria-label="Fechar">&times;</button>
+    <div class="account-panel">
+      <div class="account-brand">✿ Ousi Bloom</div>
+      <div id="authGuest">
+        <span class="eyebrow">Um cantinho só seu</span>
+        <h2 id="accountTitle">Bem-vinda à Ousi Bloom ♡</h2>
+        <p>Entre para guardar suas peças favoritas e deixar sua experiência mais especial.</p>
+        <div class="auth-tabs"><button type="button" class="auth-tab active" data-auth-tab="entrar">Entrar</button><button type="button" class="auth-tab" data-auth-tab="cadastrar">Criar conta</button></div>
+        <form id="authForm" class="auth-form">
+          <label id="authNameWrap" hidden>Seu nome<input id="authName" autocomplete="name" minlength="2" maxlength="100" placeholder="Como podemos te chamar?"></label>
+          <label>E-mail<input id="authEmail" type="email" autocomplete="email" maxlength="180" placeholder="voce@exemplo.com" required></label>
+          <label>Senha<input id="authPassword" type="password" autocomplete="current-password" minlength="8" maxlength="128" placeholder="Pelo menos 8 caracteres" required></label>
+          <p id="authError" class="auth-error" role="alert" hidden></p>
+          <button class="btn auth-submit" id="authSubmit" type="submit">Entrar na minha conta</button>
+        </form>
+      </div>
+      <div id="authLogged" hidden><span class="eyebrow">Minha conta</span><h2 id="welcomeName">Olá!</h2><p id="welcomeEmail"></p><div class="account-benefits">♡ Seus favoritos ficam salvos na sua conta.<br>✿ Continue descobrindo a coleção!</div><button type="button" class="btn outline auth-submit" id="logoutBtn">Sair da conta</button></div>
+      <p class="auth-footnote">Protótipo acadêmico • Não utilize senhas de outros serviços.</p>
+    </div>
+  </div>
   <script defer="" src="assets/js/imagens.js">
   </script>
   <script defer="" src="assets/js/produtos.js">
   </script>
   <script defer="" src="assets/js/loja.js">
   </script>
+  <script defer="" src="assets/js/api.js"></script>
+  <script defer src="assets/js/conta.js"></script>
   <script defer="" src="assets/js/efeitos.js">
   </script>
  </body>
