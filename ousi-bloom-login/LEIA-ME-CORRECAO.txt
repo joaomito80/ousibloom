@@ -1,0 +1,9 @@
+VERSAO 3 - CORRECAO DO BANNER
+
+1. Feche o servidor anterior (janela preta).
+2. APAGUE a pasta antiga ousi-bloom-login antes de extrair este ZIP.
+3. Extraia este ZIP numa pasta nova.
+4. Execute INICIAR SITE.bat.
+5. No navegador use Ctrl+F5 para atualizar sem cache.
+
+O arquivo do banner agora e banner-bebe-v3.webp.

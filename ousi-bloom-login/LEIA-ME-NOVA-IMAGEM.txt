@@ -1,0 +1,4 @@
+OUSI BLOOM - VERSAO 4
+A primeira imagem do carrossel agora mostra tres bebes deitados.
+Arquivo: assets/images/banner-tres-bebes.webp
+Para iniciar, use INICIAR SITE.bat. Atualize com Ctrl+F5.

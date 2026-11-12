@@ -1,0 +1,1 @@
+V8: imagens do bebe e do menino aproximadas, com zoom moderado e centralizacao mantida. Ajustes nas categorias e na secao Nossa Essencia. Abra INICIAR SITE.bat e pressione Ctrl+F5.

@@ -36,3 +36,6 @@ Projeto acadêmico em HTML, CSS, JavaScript e PHP 8.1+, com SQLite.
 ## Atenção antes de publicar
 
 É um protótipo acadêmico, não uma loja pronta para produção. Para publicar, configurar HTTPS, limitação de tentativas de login, recuperação/verificação de e-mail, política de privacidade/LGPD, backup, monitoramento e revisão de segurança. A administração de pedidos continua por token de ambiente (`OUSI_ADMIN_TOKEN`), sem painel gráfico. Não use senhas reais de outros serviços.
+
+## Fotos e catálogo atualizados
+As 15 fotos de produtos enviadas estão em `assets/images/colecao-01.webp` até `colecao-15.webp`. As 4 fotos editoriais também foram incorporadas em `assets/images/editorial-*.webp`. Os caminhos são locais, não URLs públicas. Edite nomes, preços e tamanhos em `assets/js/produtos.js` e mantenha `config/produtos.json` sincronizado para o backend. Os preços são ilustrativos.

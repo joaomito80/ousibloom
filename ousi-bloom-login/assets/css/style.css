@@ -1605,3 +1605,143 @@ body{background:var(--cream)}
 [hidden]{display:none!important}
 @media(max-width:850px){.account-button{padding:6px}.account-button #accountLabel{display:none}}
 @media(max-width:520px){.account-panel{padding:30px 23px 22px}.account-panel h2{font-size:27px}.header-main{gap:8px}.account-avatar{width:27px;height:27px}}
+
+/* Ajustes da nova coleção */
+.product-image img{object-fit:contain;background:#f5f4f3;padding:12px}.product-image{background:#f5f4f3}.product{transition:transform .2s ease,box-shadow .2s ease}.product:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(64,42,47,.10)}.product-image img{transition:transform .25s ease}.product:hover .product-image img{transform:scale(1.035)}
+
+/* Banner principal: enquadramento completo do bebe e leitura confortavel */
+.hero-principal {background:#f8eee7;}
+.hero-principal .hero-image {inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;animation:none!important;transform:none!important;}
+.hero-principal:before {background:linear-gradient(90deg,rgba(250,243,237,.94) 0%,rgba(250,243,237,.75) 32%,transparent 62%);}
+.hero-principal .hero-copy {max-width:560px;}
+.hero-principal .btn {box-shadow:0 8px 22px rgba(90,32,49,.14);transition:transform .2s ease,box-shadow .2s ease;}
+.hero-principal .btn:hover {transform:translateY(-2px);box-shadow:0 12px 28px rgba(90,32,49,.2);}
+@media(max-width:700px){
+ .hero-principal {min-height:720px;background:#f7ede5 url('../images/editorial-bebe.webp') no-repeat center bottom;background-size:auto 455px;}
+ .hero-principal .hero-image {display:none;}
+ .hero-principal:before {background:linear-gradient(180deg,#f9f0e9 0%,rgba(249,240,233,.98) 30%,rgba(249,240,233,0) 58%);}
+ .hero-principal .hero-copy {padding:30px 24px;max-width:100%;}
+ .hero-principal h1 {font-size:clamp(37px,9vw,48px);}
+ .hero-principal p {max-width:340px;}
+}
+@media(max-width:390px){.hero-principal{min-height:690px;background-size:auto 420px;}}
+
+/* Ousi Bloom: banner principal com foto inteira, sem cobrir o rosto */
+@media (min-width: 851px) {
+  .hero.hero-principal { min-height: 600px; background:#f8eee7; }
+  .hero.hero-principal .hero-image {
+    position:absolute; inset:0 0 0 auto; width:46%; height:100%;
+    object-fit:contain; object-position:center center;
+    transform:none!important; animation:none!important;
+  }
+  .hero.hero-principal::before {
+    background:linear-gradient(90deg,#f8eee7 0%,#f8eee7 47%,rgba(248,238,231,0) 62%);
+  }
+  .hero.hero-principal .hero-copy {max-width:560px; margin-left:clamp(30px,4vw,85px);}
+}
+.hero.hero-principal .hero-decor {display:none!important;}
+@media (max-width:850px) {
+  .hero.hero-principal {background:#f8eee7 url('../images/editorial-bebe.webp') no-repeat center bottom; background-size:auto 46%; min-height:760px;}
+  .hero.hero-principal .hero-image {display:none!important;}
+  .hero.hero-principal::before {background:linear-gradient(180deg,#f8eee7 0%,#f8eee7 42%,transparent 70%);}
+  .hero.hero-principal .hero-copy {align-self:start; padding-top:35px;}
+}
+
+/* CORRECAO DEFINITIVA V3: fotografia sem cortes e sem sobreposicoes */
+.hero.hero-principal {min-height:640px!important; background:#f8eee7!important; display:grid!important; grid-template-columns: 55% 45%!important;}
+.hero.hero-principal .hero-image {display:block!important;position:absolute!important;left:auto!important;right:0!important;top:0!important;bottom:0!important;width:45%!important;height:100%!important;object-fit:contain!important;object-position:center bottom!important;transform:none!important;animation:none!important;translate:none!important;background:#e9e1d9;}
+.hero.hero-principal::before {background:none!important;}
+.hero.hero-principal .hero-decor {display:none!important;}
+.hero.hero-principal .hero-copy {margin-left:clamp(25px,4vw,80px)!important;margin-right:20px!important;max-width:600px!important;align-self:center!important;}
+@media(max-width:850px){
+.hero.hero-principal {display:flex!important;flex-direction:column!important;min-height:0!important;padding-bottom:0!important;}
+.hero.hero-principal .hero-copy {width:100%!important;max-width:none!important;margin:0!important;padding:32px 24px 20px!important;align-self:auto!important;}
+.hero.hero-principal .hero-image {display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:420px!important;object-fit:contain!important;object-position:center bottom!important;background:#e9e1d9!important;}
+}
+@media(max-width:480px){.hero.hero-principal .hero-image{height:350px!important;}.hero.hero-principal h1{font-size:clamp(36px,9vw,48px)!important;}}
+
+/* Ousi Bloom v4: nova foto horizontal dos tres bebes no primeiro slide */
+@media (min-width: 769px) {
+  .hero.hero-principal .hero-image {
+    display:block!important;position:absolute!important;inset:0 0 0 auto!important;
+    width:62%!important;height:100%!important;object-fit:cover!important;
+    object-position:center center!important;background:#f7ede6!important;
+    transform:none!important;animation:none!important;translate:none!important;
+  }
+  .hero.hero-principal::after {
+    content:"";position:absolute;inset:0;pointer-events:none;z-index:1;
+    background:linear-gradient(90deg,#f8eee8 0%,#f8eee8 29%,rgba(248,238,232,.93) 37%,rgba(248,238,232,.1) 51%,transparent 64%);
+  }
+  .hero.hero-principal .hero-copy {position:relative;z-index:2;}
+}
+@media (max-width: 768px) {
+ .hero.hero-principal .hero-image {display:block!important;width:100%!important;height:300px!important;object-fit:cover!important;object-position:center center!important;background:#f8eee8!important;}
+}
+.hero.hero-principal .hero-decor {display:none!important;}
+
+/* V5: foto nova REAL no primeiro slide, sem texto duplicado ou flores */
+@media(min-width:769px){
+.hero.hero-principal{background:#f8eee8!important;min-height:640px!important;display:block!important;overflow:hidden!important}
+.hero.hero-principal .hero-image{position:absolute!important;inset:0 0 0 auto!important;width:65%!important;height:100%!important;object-fit:cover!important;object-position:center center!important;display:block!important;z-index:0!important}
+.hero.hero-principal::after{content:""!important;position:absolute!important;inset:0!important;background:linear-gradient(90deg,#f8eee8 0%,#f8eee8 30%,rgba(248,238,232,.94) 36%,rgba(248,238,232,.35) 47%,transparent 61%)!important;z-index:1!important;pointer-events:none!important}
+.hero.hero-principal .hero-copy{position:relative!important;z-index:3!important;max-width:560px!important;margin-left:clamp(30px,4vw,80px)!important}
+}
+@media(max-width:768px){.hero.hero-principal .hero-image{object-fit:cover!important;object-position:center center!important;width:100%!important;height:310px!important;display:block!important}.hero.hero-principal .hero-decor{display:none!important}}
+
+/* V6: enquadramento centralizado das imagens das categorias e editorial */
+.categories .category img { object-position: center 35%; }
+.categories .category[data-category="Bebê"] img { object-position: center 25%; }
+.categories .category[data-category="Menino"] { background: #f7f5f1; }
+.categories .category[data-category="Menino"] img { object-fit: contain; object-position: center center; }
+.editorial img { object-position: center 28%; }
+
+/* V7 - retratos sem cortar cabeca, com enquadramento central e consistente */
+.categories .category[data-category="Bebê"] {background:#e5ded5;}
+.categories .category[data-category="Bebê"] img {object-fit:contain!important;object-position:center center!important;}
+.categories .category[data-category="Menino"] {background:#e6ceb0;}
+.categories .category[data-category="Menino"] img {object-fit:contain!important;object-position:center center!important;}
+.editorial {background:#e7e0d8;}
+.editorial > img {object-fit:contain!important;object-position:center center!important;background:#e7e0d8;}
+.editorial-copy {background:#f8e8e9;align-self:stretch;display:flex;flex-direction:column;justify-content:center;}
+@media(max-width:700px){.editorial > img{height:370px!important;}}
+
+/* V8: aproximar retratos sem perder o alinhamento central */
+.categories .category[data-category="Bebê"],
+.categories .category[data-category="Menino"],
+.editorial { overflow: hidden; }
+.categories .category[data-category="Bebê"] img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  transform: scale(1.13);
+  transform-origin: center center;
+}
+.categories .category[data-category="Menino"] img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  transform: scale(1.23);
+  transform-origin: center center;
+}
+.editorial > img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  transform: scale(1.12);
+  transform-origin: center center;
+}
+
+/* V9: fotos preenchem integralmente os cartões, sem barras laterais. */
+.categories .category[data-category="Bebê"] img,
+.categories .category[data-category="Menino"] img {
+  width:100%!important;
+  height:100%!important;
+  object-fit:cover!important;
+  object-position:center 8%!important;
+  transform:none!important;
+  background:transparent!important;
+}
+.editorial > img {
+  width:100%!important;
+  object-fit:cover!important;
+  object-position:center 8%!important;
+  transform:none!important;
+  background:transparent!important;
+}

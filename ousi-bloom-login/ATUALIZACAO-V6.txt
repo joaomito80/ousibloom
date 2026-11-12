@@ -1,0 +1,1 @@
+V6: nova foto do menino na categoria Meninos; enquadramento centralizado das fotos de categorias e editorial. Execute INICIAR SITE.bat e atualize com Ctrl+F5.

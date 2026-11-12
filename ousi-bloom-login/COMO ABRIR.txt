@@ -1,0 +1,11 @@
+OUSI BLOOM - ABERTURA FACIL
+
+1. Extraia o arquivo ZIP inteiro.
+2. Abra a pasta ousi-bloom-login.
+3. De dois cliques em INICIAR SITE.bat.
+4. O navegador abrira em http://localhost:8000.
+5. Para desligar o site, feche a janela do servidor.
+
+Requer PHP instalado no Windows, ou XAMPP em C:\xampp\php\php.exe, ou php\php.exe dentro da pasta do projeto.
+Nao precisa usar Bash nem digitar comandos.
+Se o Windows exibir um aviso, verifique o arquivo antes de executar.

@@ -1,0 +1,4 @@
+VERSAO 5 - FOTO NOVA DOS TRES BEBES
+O primeiro slide usa assets/images/banner-tres-bebes.webp (nova fotografia recortada, sem textos embutidos).
+IMPORTANTE: extraia este ZIP em uma PASTA NOVA. Feche o servidor antigo antes de iniciar INICIAR SITE.bat.
+Acesse http://localhost:8000 e pressione Ctrl+F5.

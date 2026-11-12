@@ -1,8 +1,8 @@
 const IMG = {
-  "banner": "assets/images/banner.webp",
-  "bebe": "assets/images/bebe.webp",
-  "menina": "assets/images/menina.webp",
-  "menino": "assets/images/menino.webp",
+  "banner": "assets/images/editorial-bebe.webp",
+  "bebe": "assets/images/editorial-bebe.webp",
+  "menina": "assets/images/editorial-menina.webp",
+  "menino": "assets/images/editorial-menino-v7.webp",
   "vestido": "assets/images/vestido.svg",
   "vestido2": "assets/images/vestido2.svg",
   "conjunto": "assets/images/conjunto.svg",
@@ -25,9 +25,9 @@ const IMG = {
   "p14": "assets/images/p14.webp",
   "p15": "assets/images/p15.webp",
   "p16": "assets/images/p16.webp",
-  "slide1": "assets/images/slide1.webp",
-  "slide2": "assets/images/slide2.webp",
-  "slide3": "assets/images/slide3.webp",
+  "slide1": "assets/images/editorial-bebe.webp",
+  "slide2": "assets/images/editorial-grupo.webp",
+  "slide3": "assets/images/editorial-menina.webp",
   "lb": "assets/images/lb.webp",
   "lw": "assets/images/lw.webp"
 };
